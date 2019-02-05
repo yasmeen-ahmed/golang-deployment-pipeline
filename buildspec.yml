@@ -4,6 +4,7 @@ phases:
 
   install: 
     commands:
+      - apt-get install golang-go
       - echo "yasmeen"
       - go get -u github.com/golang/lint/golint
 
